@@ -1,12 +1,6 @@
 'use client';
 
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { ArrowDownToLine } from "lucide-react";
 import { motion } from "framer-motion";
-import Image from "next/image";
-import { Typewriter } from "react-simple-typewriter";
 
 export default function Home() {
   return (
@@ -28,7 +22,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-between w-full my-16 max-w-7xl mx-auto p-6">
           <div className="text-left absolute top-60 left-15">
             <div className="bg-white/20 backdrop-blur-md p-6 rounded-xl">
-              <h1 className="md:text-6xl font-bold">Full Stack Engineer</h1>
+              <h1 className="md:text-6xl font-bold">Full Stack Developer</h1>
             </div>
           </div>
         </div>
@@ -54,12 +48,12 @@ export default function Home() {
         >
           <h2 className="text-3xl font-bold mb-4 text-center text-caput">About Me</h2>
           <p className="text-base leading-7">
-            I'm a full-stack software developer with a strong interest in backend systems, database management, and cloud infrastructure. 
+            I&apos;m a full-stack software developer with a strong interest in backend systems, database management, and cloud infrastructure. 
             I enjoy solving complex problems, optimizing performance, and exploring the internals of how code runs. 
             My experience spans academic projects, IT consulting outreach, and professional hands-on hardware work across diverse mobile platforms.
             <br /><br />
-            I'm comfortable with many languages like C++ and Python. Although I am always learning new languages and technologies. 
-            I'm always exploring new tech and approaches to stay adaptable and efficient. 
+            I&apos;m comfortable with many languages like C++ and Python. Although I am always learning new languages and technologies. 
+            I&apos;m always exploring new tech and approaches to stay adaptable and efficient. 
             I collaborate well in teams and value clear communication and thoughtful problem-solving.
           </p>
         </motion.div>
