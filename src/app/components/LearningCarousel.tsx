@@ -19,7 +19,7 @@ const learningItems = [
   },
   {
     title: 'Azure / Public Cloud',
-    description: 'Undertaking Mircrosoft learn paths to understand the fundamentals of Azure,',
+    description: 'Undertaking Mircrosoft learn paths to understand the fundamentals of Azure.',
   },
   {
     title: 'UX Design',
