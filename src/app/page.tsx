@@ -49,7 +49,7 @@ export default function Home() {
         <div className="text-left max-w-md absolute bottom-10 right-4 md:bottom-30 md:right-20 mx-auto p-6">
           <div className="bg-peach/30 backdrop-blur-md p-6 rounded-xl max-w-lg">
             <p className="text-lg md:text-2xl leading-relaxed">
-              Hey, I'm Jacob — a full stack developer from North Carolina, passionate about crafting modern web experiences, exploring silicon tech, and enjoying the occasional fishing trip.
+              Hey, I&pos;m Jacob — a full stack developer from North Carolina, passionate about crafting modern web experiences, exploring silicon tech, and enjoying the occasional fishing trip.
             </p>
           </div>
 
@@ -57,7 +57,7 @@ export default function Home() {
       </section>
       <section className="py-12 px-4 text-center">
         <p className="text-lg md:text-xl text-neutral-700">
-          Currently open to full-time opportunities — let’s build something great together.
+          Currently open to full-time opportunities — let&pos;s build something great together.
         </p>
         <a
           href="/NIT_AP_Resume.pdf"
