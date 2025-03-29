@@ -46,7 +46,7 @@ export default function Home() {
         </div>
 
         {/* Intro */}
-        <div className="text-left max-w-md absolute bottom-10 right-4 md:bottom-30 md:right-20 mx-auto p-6">
+        <div className="text-left max-w-md p-6 mx-auto md:absolute md:bottom-30 md:right-20">
           <div className="bg-peach/30 backdrop-blur-md p-6 rounded-xl max-w-lg">
             <p className="text-lg md:text-2xl leading-relaxed">
               Hey, I&apos;m Jacob — a full stack developer from North Carolina, passionate about crafting modern web experiences, exploring silicon tech, and enjoying the occasional fishing trip.
