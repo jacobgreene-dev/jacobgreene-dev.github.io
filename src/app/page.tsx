@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#c2baad] to-white antialiased scroll-smooth text-neutral-800">
-      {/* Sticky Navbar */}
+      {/* Navbar */}
       <header className="fixed top-0 left-0 w-full z-50 bg-white/30 backdrop-blur-lg shadow-sm">
         <nav className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
           <span className="text-lg font-semibold text-caput">Jacob Greene</span>
@@ -18,7 +18,7 @@ export default function Home() {
         </nav>
       </header>
 
-      {/* Hero / Intro */}
+      {/* Hero */}
       <section className="min-h-screen flex relative px-6 pt-20 bg-[url('/bg.jpg')] bg-cover bg-center text-neutral-800 transition-colors duration-1000">
         <div className="hidden md:block">
           <div className="flex flex-col md:flex-row justify-between w-full my-16 max-w-7xl mx-auto p-6">
@@ -45,19 +45,21 @@ export default function Home() {
           </div>
         </div>
 
-
+        {/* Intro */}
         <div className="text-left max-w-md absolute bottom-10 right-4 md:bottom-30 md:right-20 mx-auto p-6">
           <div className="bg-peach/30 backdrop-blur-md p-6 rounded-xl max-w-lg">
             <p className="text-lg md:text-2xl leading-relaxed">
-              Hey, I&pos;m Jacob — a full stack developer from North Carolina, passionate about crafting modern web experiences, exploring silicon tech, and enjoying the occasional fishing trip.
+              Hey, I&apos;m Jacob — a full stack developer from North Carolina, passionate about crafting modern web experiences, exploring silicon tech, and enjoying the occasional fishing trip.
             </p>
           </div>
 
         </div>
       </section>
+
+      {/* CTA */}
       <section className="py-12 px-4 text-center">
         <p className="text-lg md:text-xl text-neutral-700">
-          Currently open to full-time opportunities — let&pos;s build something great together.
+          Currently open to full-time opportunities — let&apos;s build something great together.
         </p>
         <a
           href="/NIT_AP_Resume.pdf"
@@ -68,8 +70,7 @@ export default function Home() {
         </a>
       </section>
 
-
-      {/* About Section */}
+      {/* About */}
       <section className="py-24 px-4 max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -90,7 +91,7 @@ export default function Home() {
         </motion.div>
       </section>
 
-      {/* Projects Section */}
+      {/* Projects */}
       <section id="projects" className="py-24 px-4 max-w-6xl mx-auto">
         <motion.h2
           initial={{ opacity: 0 }}
@@ -103,8 +104,7 @@ export default function Home() {
         </motion.h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          {/* Project cards */}
-          {/* Example card shown, rest unchanged */}
+
           <motion.div
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
@@ -122,7 +122,7 @@ export default function Home() {
               <span>GitHub</span>
             </div>
           </motion.div>
-          {/* Remaining cards unchanged */}
+
           <motion.div
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
@@ -143,6 +143,7 @@ export default function Home() {
               <span>GitHub</span>
             </div>
           </motion.div>
+
           <motion.div
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
@@ -164,6 +165,7 @@ export default function Home() {
               <span>GitHub</span>
             </div>
           </motion.div>
+
           <motion.div
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
@@ -190,7 +192,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Tools Section */}
+      {/* Tools */}
       <section className="py-24 px-4 max-w-5xl mx-auto">
         <motion.h2
           initial={{ opacity: 0 }}
@@ -213,6 +215,8 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {/* Learning */}
       <section className="py-24 px-4 max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold text-caput text-center mb-12">What I’m Learning Now</h2>
         <LearningCarousel />
