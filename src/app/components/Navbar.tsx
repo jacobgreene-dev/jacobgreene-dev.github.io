@@ -8,7 +8,7 @@ export default function Navbar() {
                     <ul className="hidden sm:flex gap-6 text-sm text-caput">
                         <li><a href="#" className="hover:underline">Home</a></li>
                         <li><a href="#projects" className="hover:underline">Projects</a></li>
-                        <li><a href="/NIT_AP_Resume.pdf" download className="hover:underline">Resume</a></li>
+                        <li><a href="/resume.pdf" download className="hover:underline">Resume</a></li>
                     </ul>
                 </nav>
             </header>
