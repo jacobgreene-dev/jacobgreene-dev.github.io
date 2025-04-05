@@ -7,7 +7,7 @@ export default function CTA() {
                     Currently open to full-time opportunities — let&apos;s build something great together.
                 </p>
                 <a
-                    href="/NIT_AP_Resume.pdf"
+                    href="/resume.pdf"
                     download
                     className="inline-block mt-4 px-6 py-2 bg-caput text-white font-medium rounded-xl hover:bg-caput/90 transition"
                 >
