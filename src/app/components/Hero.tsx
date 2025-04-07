@@ -48,7 +48,7 @@ export default function Hero() {
                 <div className="relative z-20 mt-4 md:mt-0 md:absolute md:bottom-20 md:right-20 max-w-md mx-auto p-4">
                     <div className="bg-peach/30 backdrop-blur-md p-6 rounded-xl shadow-md">
                         <p className="text-lg md:text-2xl leading-relaxed">
-                            Hey, I&apos;m Jacob — a full stack developer from North Carolina, passionate about crafting modern web experiences, exploring silicon tech, and enjoying the occasional fishing trip.
+                            Hey, I&apos;m Jacob — a full stack developer from North Carolina, passionate about crafting modern software experiences, exploring new tech, and enjoying the occasional fishing trip.
                         </p>
                     </div>
                 </div>
