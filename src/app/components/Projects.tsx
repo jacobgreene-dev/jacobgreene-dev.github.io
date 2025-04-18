@@ -101,6 +101,24 @@ export default function Projects() {
                             <span>GitHub</span>
                         </div>
                     </motion.div>
+
+                    <motion.div
+                        whileHover={{ scale: 1.02 }}
+                        transition={{ duration: 0.3 }}
+                        className="rounded-2xl border border-caput/20 bg-white/80 backdrop-blur-md p-6 shadow-lg hover:shadow-xl"
+                        onClick={() => window.open("https://github.com/jacobgreene-dev/bpm-rle-compress")}
+                    >
+                        <h3 className="text-xl font-semibold mb-2">BPM-RLE-COMPRESSOR</h3>
+                        <p className="text-sm mb-4">
+                        A simple command-line C++ application for compressing and decompressing BMP images using Run-Length Encoding (RLE). 
+                        This project demonstrates binary file I/O, image format handling, and lossless compression using modern C++.
+                        </p>
+                        <div className="flex gap-3 text-sm flex-wrap">
+                            <span>C++</span>
+                            <span>PowerShell Scripting</span>
+                            <span>GitHub</span>
+                        </div>
+                    </motion.div>
                 </div>
             </section>
         </div>
