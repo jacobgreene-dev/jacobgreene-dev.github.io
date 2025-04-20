@@ -25,8 +25,11 @@ export default function Projects() {
                     >
                         <h3 className="text-xl font-semibold mb-2">MY-PORTFOLIO</h3>
                         <p className="text-sm mb-4">
-                            Next.js portfolio site with TypeScript, Tailwind CSS, and Framer Motion animations. Hosted on Github Pages.
+                            A modern and responsive developer portfolio built with Next.js using the App Router architecture, 
+                            written entirely in TypeScript for type safety and scalability. Styled with Tailwind CSS and enhanced with smooth, 
+                            dynamic animations using Framer Motion. Deployed on GitHub Pages for continuous integration and easy version control.
                         </p>
+
                         <div className="flex gap-3 text-sm flex-wrap">
                             <span>Next.js</span>
                             <span>TypeScript</span>
@@ -43,15 +46,34 @@ export default function Projects() {
                     >
                         <h3 className="text-xl font-semibold mb-2">IDEAL-BET</h3>
                         <p className="text-sm mb-4">
-                            NBA analytics web app for sports betting insights — built with Next.js, TypeScript, and API integration.
+                            NBA analytics web application providing sports betting insights, built with Next.js, TypeScript, Tailwind CSS, Google OAuth, and Firebase.
+                            I served as the lead developer and was responsible for architecting and implementing the full application stack, excluding the machine learning model.
                         </p>
                         <div className="flex gap-3 text-sm flex-wrap">
                             <span>Next.js</span>
                             <span>TypeScript</span>
-                            <span>Python</span>
+                            <span>Google OAuth</span>
                             <span>Tailwind</span>
                             <span>Machine Learning</span>
-                            <span>REST API</span>
+                            <span>Vercel</span>
+                            <span>GitHub</span>
+                        </div>
+                    </motion.div>
+
+                    <motion.div
+                        whileHover={{ scale: 1.02 }}
+                        transition={{ duration: 0.3 }}
+                        className="rounded-2xl border border-caput/20 bg-white/80 backdrop-blur-md p-6 shadow-lg hover:shadow-xl"
+                        onClick={() => window.open("https://github.com/jacobgreene-dev/bpm-rle-compress")}
+                    >
+                        <h3 className="text-xl font-semibold mb-2">BPM-RLE-COMPRESSOR</h3>
+                        <p className="text-sm mb-4">
+                            A simple command-line C++ application for compressing and decompressing BMP images using Run-Length Encoding (RLE).
+                            This project demonstrates binary file I/O, image format handling, and lossless compression using modern C++.
+                        </p>
+                        <div className="flex gap-3 text-sm flex-wrap">
+                            <span>C++</span>
+                            <span>PowerShell Scripting</span>
                             <span>GitHub</span>
                         </div>
                     </motion.div>
@@ -98,24 +120,6 @@ export default function Projects() {
                             <span>Java</span>
                             <span>Javascript</span>
                             <span>H2 Database</span>
-                            <span>GitHub</span>
-                        </div>
-                    </motion.div>
-
-                    <motion.div
-                        whileHover={{ scale: 1.02 }}
-                        transition={{ duration: 0.3 }}
-                        className="rounded-2xl border border-caput/20 bg-white/80 backdrop-blur-md p-6 shadow-lg hover:shadow-xl"
-                        onClick={() => window.open("https://github.com/jacobgreene-dev/bpm-rle-compress")}
-                    >
-                        <h3 className="text-xl font-semibold mb-2">BPM-RLE-COMPRESSOR</h3>
-                        <p className="text-sm mb-4">
-                        A simple command-line C++ application for compressing and decompressing BMP images using Run-Length Encoding (RLE). 
-                        This project demonstrates binary file I/O, image format handling, and lossless compression using modern C++.
-                        </p>
-                        <div className="flex gap-3 text-sm flex-wrap">
-                            <span>C++</span>
-                            <span>PowerShell Scripting</span>
                             <span>GitHub</span>
                         </div>
                     </motion.div>
